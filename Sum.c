@@ -1,6 +1,6 @@
 #include"Arthematic.h"
 
-int sum( float(num1) , float(num2)){
-    
+int sum( int num1 , int num2)
+{ 
     return num1 + num2 ;
 }
