@@ -1,23 +1,15 @@
-void Sum( float(num1) , float(num2)){
-    int sum;
-    sum = num1 + num2;
-    printf("Sum of 2 numbers: %d\n",sum);
-}
 
-void Difference( float(num1) , float(num2)){
-    int sum;
-    sum = num1 - num2;
-    printf("Difference of 2 numbers: %d\n",sum);
-}
+#ifndef __ARTHEMATIC_H__ 
+#define __ARTHEMATIC_H__
 
-void Product( float(num1) , float(num2)){
-    int sum;
-    sum = num1 * num2;
-    printf("Product of 2 numbers: %d\n",sum);
-}
+int sum( float(num1) , float(num2));
 
-void Division( float(num1) , float(num2)){
-    int sum;
-    sum = num1 / num2;
-    printf("Division of 2 numbers: %d\n",sum);
-}
+/*int Difference( float(num1) , float(num2));
+    
+
+int Product( float(num1) , float(num2));
+
+int Division( float(num1) , float(num2));*/
+
+
+#endif 
